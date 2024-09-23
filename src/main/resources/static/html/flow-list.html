@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" theme="default">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Rxel components</title>
+    <link href="../styles/index.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="grid">
+</header>
+<main class="grid">
+    <div class="column">
+        <div class="column">
+            <div class="content">
+                <rx-table class="table" data-flows=""></rx-table>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script type="importmap">
+    {
+        "imports": {
+            "rx-el": "../../../../dist/bundle.mjs"
+        }
+    }
+</script>
+
+<!-- Component class script reference -->
+<script src="../components/rx-table.js" type="module"></script>
+<script src="../components/c-icon.js" type="module"></script>
+
+</body>
+</html>
